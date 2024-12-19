@@ -97,3 +97,7 @@ p, .card-text {
   font-weight: 300;
   color: #333; /* Dark gray text */
 }
+
+#user-email {
+  display: none;
+}
