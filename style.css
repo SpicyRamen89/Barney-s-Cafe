@@ -1,0 +1,99 @@
+/* General Body */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: rgba(159, 237, 215, 0.3) !important; /* Light teal with 50% transparency */
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+header {
+  background-color: rgba(159, 237, 215, 0.9) !important; /* Light teal with 50% transparency */
+  color: #026670; /* Dark teal text */
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  font-family: 'Georgia', serif; /* Elegant, bold font for header */
+  font-weight: bold;
+}
+
+header p {
+  font-family: 'Arial', sans-serif;
+  font-weight: 300; /* Light text for the description */
+  font-size: 1.2em;
+}
+
+
+/* Card Styles */
+.card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px; /* Add margin for space between cards */
+  display: flex;
+  flex-direction: column;
+}
+
+.card-title {
+  color: #026670; /* Dark teal for card titles */
+  font-weight: bold;
+  padding: 10px;
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 15px;
+  background-color: #EDEAE5; /* Light gray background for card body */
+}
+
+.card-body p {
+  font-size: 1em;
+  color: #333; /* Dark gray text for description */
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: #FCE181; /* Soft yellow button background */
+  border-color: #FCE181; /* Button border color */
+}
+
+.btn-primary:hover {
+  background-color: #026670; /* Dark teal on hover */
+  border-color: #026670;
+}
+
+.list-group-item {
+  display: flex;
+  justify-content: space-between;
+  background-color: #9FEDD7; /* Light teal for list items */
+  color: #026670; /* Dark teal text color */
+}
+
+.list-group-item:last-child {
+  background-color: #FCE181; /* Soft yellow for the last item */
+}
+
+/* Main Container */
+.container {
+  padding: 20px;
+  margin-bottom: 100px; /* Ensure space for the fixed order summary */
+}
+
+/* Typography and Font Styles */
+h1, h2 {
+  font-family: 'Georgia', serif;
+  color: #026670;
+}
+
+p, .card-text {
+  font-family: 'Arial', sans-serif;
+  font-weight: 300;
+  color: #333; /* Dark gray text */
+}
