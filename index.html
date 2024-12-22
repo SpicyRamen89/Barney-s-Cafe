@@ -10,33 +10,47 @@
   <style>
     body {
       background: url('assets/1.webp') no-repeat center center; /* Single image */
-
-      height: 120vh; /* Make height equal to viewport height */
-      width: 100vw; /* Make width equal to viewport width */
+      background-size: cover;
+      height: 100vh; /* Make height equal to viewport height */
       display: flex;
-      justify-content: center;
+      flex-direction: column;
+      justify-content: space-between;
       align-items: center;
       color: white;
-      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
       font-family: 'Arial', sans-serif;
+      margin: 0;
     }
-    .cover-container {
+
+    .header-container {
       text-align: center;
+      margin-top: 20px;
+      color: #FFD700; /* More suitable gold-like color */
+      
     }
-    .btn-menu {
-      margin-top: 40px;
-      padding: 10px 20px;
+
+    .button-container {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding-bottom: 40px;
+    }
+
+    .btn-custom {
+      padding: 15px 30px;
       font-size: 1.2rem;
+      border-radius: 5px;
     }
   </style>
 </head>
 <body>
-  <div class="cover-container">
-  <!--
+  <div class="header-container">
     <h1>Welcome to Barney's Cafe 🐾</h1>
     <p>Your favorite breakfast, made with love and care!</p>
-    -->
-	<a href="menu.html" class="btn btn-primary btn-menu">Menu</a>
+  </div>
+  <div class="button-container">
+    <a href="menu.html" class="btn btn-primary btn-custom">Menu</a>
+    <a href="1.html" class="btn btn-primary btn-custom">Gallery</a>
+    <a href="2.html" class="btn btn-primary btn-custom">Feedback</a>
   </div>
 </body>
 </html>
