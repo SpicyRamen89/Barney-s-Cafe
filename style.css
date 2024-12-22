@@ -58,6 +58,17 @@ header p {
   color: #333; /* Dark gray text for description */
 }
 
+/* Main Buttons */
+.btn-mn-primary {
+  background-color: #026670; /* Soft yellow button background */
+  border-color: #026670; /* Button border color */
+}
+
+.btn-mn-primary:hover {
+  background-color: #026670; /* Dark teal on hover */
+  border-color: #026670;
+}
+
 /* Buttons */
 .btn-primary {
   background-color: #FCE181; /* Soft yellow button background */
